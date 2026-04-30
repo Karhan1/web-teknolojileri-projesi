@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Şehrim | Web Projesi</title>
+    <title>Şehrim | Karadeniz Ereğli</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -24,9 +24,10 @@
     <div class="container mt-5">
         <header class="text-center mb-5">
             <h1>Şehrim: Karadeniz Ereğli</h1>
-            <p class="lead">Gezilecek Yerler ve Şehir Bilgileri</p>
+            <p class="lead text-muted">Tarihin, Sanayinin ve Doğanın Buluştuğu Nokta</p>
         </header>
 
+        
         <div id="sehirSlider" class="carousel slide shadow-lg rounded overflow-hidden mb-5" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#sehirSlider" data-bs-slide-to="0" class="active"></button>
@@ -36,31 +37,31 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/sehir1.jpg" class="d-block w-100" alt="Şehir Görsel 1" style="height: 500px; object-fit: cover;">
-                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+                    <img src="img/sehir1.jpg" class="d-block w-100" alt="Gazi Alemdar Gemisi" style="height: 500px; object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
                         <h5>Gazi Alemdar Gemisi</h5>
-                        <p>Burası şehrin en meşhur noktalarından biridir.</p>
+                        <p>Kurtuluş Savaşı'nın tek deniz çatışmasının kahramanı ve tarihi bir miras.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/sehir2.jpg" class="d-block w-100" alt="Şehir Görsel 2" style="height: 500px; object-fit: cover;">
-                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+                    <img src="img/sehir2.jpg" class="d-block w-100" alt="Cehennemağzı Mağaraları" style="height: 500px; object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
                         <h5>Cehennemağzı Mağaraları</h5>
-                        <p>Tarihi dokusuyla büyüleyen bir mekan.</p>
+                        <p>Tarihin ve mitolojinin bir araya geldiği nefes kesici büyülü bir mekan.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/sehir3.jpg" class="d-block w-100" alt="Şehir Görsel 3" style="height: 500px; object-fit: cover;">
-                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+                    <img src="img/sehir3.jpg" class="d-block w-100" alt="Ereğli Kalesi" style="height: 500px; object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
                         <h5>Ereğli Kalesi</h5>
-                        <p>Şehrin tarihi dokusunu yansıtan bir kale.</p>
+                        <p>Şehrin tarihi dokusunu yansıtan ve eşsiz manzara sunan kale.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/sehir4.jpg" class="d-block w-100" alt="Şehir Görsel 4" style="height: 500px; object-fit: cover;">
-                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50">
+                    <img src="img/sehir4.jpg" class="d-block w-100" alt="Ereğli Sahili" style="height: 500px; object-fit: cover;">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-2">
                         <h5>Ereğli Sahili</h5>
-                        <p>Doğanın ve tarımın buluştuğu bir bölge.</p>
+                        <p>Deniz manzarası ile insanı büyüleyen sakin bir sahil.</p>
                     </div>
                 </div>
             </div>
@@ -72,16 +73,16 @@
             </button>
         </div>
 
-        <section class="row">
-            <div class="col-md-6">
-                <h3>KDZ Ereğli ile ilgili Bilgiler</h3>
+        <section class="row mb-5">
+            <article class="col-md-6 border-end">
+                <h3>KDZ Ereğli ile İlgili Bilgiler</h3>
                 <p><strong>Nüfus:</strong> 158.010</p>
-                <p><strong>Ünlü Yemekleri:</strong> zılnıt , kır pidesi , kara lahana sarması en iddalı yemekleri arasındadır . bunun harici endemik osmanlı çileği tarımı en çokk bölgedir ve artık şehrin bir simgesi haline gelmiştir.</p>
-            </div>
-            <div class="col-md-6">
-                <h3> Tarihçesi :</h3>
-                <p>Antik çağlardan bugüne uzanan köklü bir geçmişe sahip olan Karadeniz Ereğli, M.Ö. 550 civarında Megaralı kolonistler tarafından "Herakleia Pontike" adıyla kurulmuş, adını mitolojik kahraman Herakles’ten alan efsanevi bir liman kentidir. Hititlerden Friglere, Roma'dan Bizans'a kadar pek çok medeniyetin izlerini taşıyan şehir, özellikle Hristiyanlığın ilk yayıldığı yerlerden biri olan Cehennemağzı Mağaraları gibi eşsiz tarihi miraslara ev sahipliği yapmaktadır. 1337 yılında Osmanlı topraklarına katılarak Türk-İslam kimliğini kazanan bölge, yüzyıllarca stratejik bir deniz üssü ve ticaret merkezi olarak önemini korumuştur.Ereğli’nin kaderi, 1829 yılında kömürün keşfiyle birlikte modern bir sanayi merkezine dönüşmüş, Cumhuriyet döneminde ise 1965 yılında kurulan devasa Erdemir fabrikasıyla Türkiye'nin ağır sanayi lokomotifi haline gelmiştir. Günümüzde hem bu devasa endüstriyel gücü hem de yemyeşil doğası ve masmavi deniziyle Karadeniz’in parlayan yıldızı olan şehir; tarihin, emeğin ve doğanın iç içe geçtiği çok özel bir mozaik sunmaktadır.</p>
-            </div>
+                <p><strong>Ünlü Yemekleri:</strong> Zılbıt, kır pidesi ve kara lahana sarması en iddialı lezzetleri arasındadır. Bunun haricinde endemik Osmanlı çileği tarımı bu bölgede yoğundur ve şehrin bir simgesi haline gelmiştir.</p>
+            </article>
+            <article class="col-md-6 ps-md-4">
+                <h3>Tarihçesi</h3>
+                <p style="text-align: justify;">Antik çağlardan bugüne uzanan köklü bir geçmişe sahip olan Karadeniz Ereğli, M.Ö. 550 civarında Megaralı kolonistler tarafından "Herakleia Pontike" adıyla kurulmuş efsanevi bir liman kentidir. Ereğli’nin kaderi, 1829 yılında kömürün keşfiyle modern bir sanayi merkezine dönüşmüş, Cumhuriyet döneminde ise 1965 yılında kurulan Erdemir fabrikasıyla Türkiye'nin ağır sanayi lokomotifi haline gelmiştir.</p>
+            </article>
         </section>
     </div>
 
