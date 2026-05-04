@@ -9,7 +9,7 @@
     <style>
        
         .text-justify { text-align: justify; }
-        .miras-aldığım-yer { border-left: 5px solid #dc3545; background: #f8f9fa;   padding: 15px; margin-bottom: 20px; }
+        .miras-aldığım-yer { border-left: 5px solid #dc3545;  background: #f8f9fa;   padding: 15px; margin-bottom: 20px; }
     </style>
 </head>
 <body>
