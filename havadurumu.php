@@ -34,7 +34,7 @@
                     } else {
                         echo "<p class='text-danger'>Bağlantı sorunu var.</p>";
                     }
-                    ?>
+                    ?>git add .
 
                 </div>
             </div>
