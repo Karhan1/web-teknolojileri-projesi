@@ -20,6 +20,7 @@
                 <a class="nav-link"  href="index.php">Hakkında</a>
                 <a class="nav-link"  href="ozgecmisim.php">Özgeçmiş</a>
                 <a class="nav-link" href="sehrim.php">Şehrim</a>
+                <a class="nav-link" href="hobilerim.php">İlgi Alanlarım</a>
                 <a class="nav-link active" href="mirasimiz.php">Mirasımız</a>
                 <a class="nav-link"  href="iletisim.php">İletişim</a>
                 <a class="nav-link" href="login.php">Login</a>

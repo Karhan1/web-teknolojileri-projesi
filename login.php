@@ -28,7 +28,7 @@
                         <form action="login_kontrol.php" method="POST">
                             <div class="mb-3">
                                 <label class="form-label">Kullanıcı Adı (E-posta):</label>
-                                <input type="text" name="username" class="form-control" placeholder="B251210081@sakarya.edu.tr" required>
+                                <input type="text" name="username" class="form-control" placeholder="öğrencinumaran@sakarya.edu.tr" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">Şifre:</label>

@@ -13,9 +13,10 @@
             <a class="navbar-brand" href="#">B251210081</a>
             <div class="navbar-nav ms-auto">
                 <a class="nav-link" href="index.php">Hakkında</a>
-                <a class="nav-link active" href="ozgecmis.php">Özgeçmiş</a>
+                <a class="nav-link active" href="ozgecmis.php">ozgecmiş</a>
                 <a class="nav-link" href="sehrim.php">Şehrim</a>
-                <a class="nav-link" href="iletisim.php">İletişim</a>
+                <a class="nav-link" href="hobilerim.php">İlgi Alanlarım</a>
+                <a class="nav-link" href="iletisim.php">İletisim</a>
                 <a class="nav-link" href="login.php">Login</a>
             </div>
         </div>
@@ -23,36 +24,36 @@
 
     <div class="container mt-5">
         <header class="text-center mb-5">
-            <h1>Özgeçmişim</h1>
-            <p class="text-muted">Eğitim ve Kariyer Yolculuğum</p>
+            <h1>Özgeçmişim (CV)</h1>
+            <p class="text-muted">Eğitimlerim ve Yeteneklerim</p>
         </header>
 
 
             <main class="container my-5">
     <section id="egitim" class="mb-5">
-        <h2 class="border-bottom pb-2 text-primary">Eğitim Bilgilerim</h2>
+        <h2 class="border-bottom pb-2 text-primary">Okul Bilgilerim</h2>
         
         <article class="mt-4 p-3 border-start border-4 border-primary bg-light">
-            <h4>Üniversite</h4>
-            <p><strong>Sakarya Üniversitesi</strong></p>
-            <p class="text-muted">Bilgisayar Mühendisliği | 2025 - 2026</p>
-            <p>Şu an ilk web projemi geliştiriyorum. HTML5, CSS ve PHP konularını kullanarak.</p>
+            <h4>Üniversite Bilgileri:</h4>
+            <p><strong>Sakarya Üniversitesi Bilgisayar ve Bilişim Fakültesi</strong></p>
+            <p class="text-muted">Bilgisayar Mühendisliği 1. Sınıf | 2025 - 2026</p>
+            <p>C# , Python , C++ , JavaScript , html5 ,CSS konularının eğitimini aldım ve kendimi orta düzeyde geliştirdim Bu alanlarda gelişmek için yaptığım projelerede </p>
         </article>
 
         <article class="mt-3 p-3 border-start border-4 border-secondary bg-light">
-            <h4>Lise</h4>
-            <p><strong>Atatürk Anadolu Lisesi (İMKB)</strong></p> 
-            <p class="text-muted">Sayısal Bölüm</p>
-            <p>Özellikle Savunma Sanayi alanına duyduğum ilgi mühendislik için sayısal bölümü seçmemin nedenlerindendir.</p>
+            <h4>Lise Bilgileri:</h4>
+            <p><strong>KEAL (Karadeniz Ereğli Anadolu Lisesi) girişli , İMKB (İstambul Borsa ereğli Anadolu Lisesi) mezunuyum</strong></p> 
+            <p class="text-muted">Sayısal Bölüm / mezunuyet ortalaması:98</p>
+            <p>bu senelerde Özellikle Savunma Sanayi alanına duyduğum ilgi mühendislik seçmemde en büyük nedenlerden biridir bu yıllarda bir çok savunma sanayi tanıtım etkinliklerine katılıp gelecekteki projelerim için örnekler tanıyıp bunlarla ilgili araştırmalar yaptım. </p>
         </article>
     </section>
 
     <section id="yetkinlikler" class="mb-5">
-        <h2 class="border-bottom pb-2 text-success">Becerilerim</h2>
+        <h2 class="border-bottom pb-2 text-success"> Geliştiğim Alanlar</h2>
         <article class="mt-3">
             <div class="row">
                 <div class="col-md-6">
-                    <h5>Yazılım & Tasarım</h5>
+                    <h5>Yazılım ve Web Tasarım</h5>
                     <ul>
                         <li>HTML5 ve Semantik Etiketler</li>
                         <li>Bootstrap 5 Framework</li>
@@ -66,7 +67,7 @@
                 </div>
                 <div class="col-md-6">
                     <h5>Kişisel İlgi Alanları</h5>
-                    <p>karakalem çalışmaları yapmak ,müzik dinlemek ve at binmek hobilerimden birkaçıdır.</p>
+                    <p>karakalem çalışmaları yapmak ,müzik dinlemek, ata binmek , seramik yapmak ilgi alanlarım arasındadır. </p>
                 </div>
             </div>
         </article>

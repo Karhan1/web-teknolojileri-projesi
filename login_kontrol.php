@@ -4,7 +4,7 @@ $user = $_POST['username'];
 $pass = $_POST['password'];
 
 // Ödev kurallarına göre kullanıcı adı ve şifre kontrolü
-// Kullanıcı adı öğrenci numaran, şifre ise senin belirlediğin (genelde numaranın kendisi)
+
 if ($user == "B251210081@sakarya.edu.tr" && $pass == "B251210081") {
     // Başarılıysa kullanıcıya hoşgeldin diyoruz
     echo "<!DOCTYPE html>

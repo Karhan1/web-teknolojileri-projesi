@@ -15,31 +15,31 @@
                 <p class="lead">Gönderdiğiniz bilgiler aşağıdadır:</p>
                 <table class="table table-striped border">
                     <tbody>
-                        <tr>
-                            <th width="30%">Ad Soyad:</th>
-                            <td><?php echo htmlspecialchars($_POST['adsoyad']); ?></td>
-                        </tr>
-                        <tr>
-                            <th>E-posta:</th>
-                            <td><?php echo htmlspecialchars($_POST['email']); ?></td>
-                        </tr>
-                        <tr>
-                            <th>Konu:</th>
-                            <td><?php echo htmlspecialchars($_POST['konu']); ?></td>
-                        </tr>
-                        <tr>
-                            <th>Bizi Nereden Duydunuz:</th>
-                            <td><?php echo isset($_POST['kaynak']) ? htmlspecialchars($_POST['kaynak']) : 'Belirtilmedi'; ?></td>
-                        </tr>
-                        <tr>
-                            <th>Mesaj:</th>
-                            <td><?php echo nl2br(htmlspecialchars($_POST['mesaj'])); ?></td>
-                        </tr>
-                        <tr>
-                            <th>Onay Durumu:</th>
-                            <td><?php echo isset($_POST['onay']) ? 'Onaylandı ✅' : 'Onaylanmadı ❌'; ?></td>
-                        </tr>
-                    </tbody>
+    <tr>
+        <th width="30%">Ad Soyad:</th>
+        <td><?php echo htmlspecialchars($_POST['adsoyad']); ?></td>
+    </tr>
+    <tr>
+        <th>E-posta:</th>
+        <td><?php echo htmlspecialchars($_POST['email']); ?></td>
+    </tr>
+    <tr>
+        <th>Cinsiyet:</th>
+        <td><?php echo isset($_POST['cinsiyet']) ? htmlspecialchars($_POST['cinsiyet']) : 'Belirtilmedi'; ?></td>
+    </tr>
+    <tr>
+        <th>Konu:</th>
+        <td><?php echo htmlspecialchars($_POST['konu']); ?></td>
+    </tr>
+    <tr>
+        <th>Mesaj:</th>
+        <td><?php echo nl2br(htmlspecialchars($_POST['mesaj'])); ?></td>
+    </tr>
+    <tr>
+        <th>Onay Durumu:</th>
+        <td><?php echo isset($_POST['onay']) ? 'Onaylandı ' : 'Onaylanmadı '; ?></td>
+    </tr>
+</tbody>
                 </table>
                 <div class="text-center mt-4">
                     <a href="index.php" class="btn btn-outline-success">Ana Sayfaya Dön</a>
