@@ -12,7 +12,7 @@
                 <h3 class="mb-0">Form Gönderim Başarılı</h3>
             </div>
             <div class="card-body p-4">
-                <p class="lead">Gönderdiğiniz bilgiler aşağıdadır:</p>
+                <p class="lead">Gönderilen bilgiler:</p>
                 <table class="table table-striped border">
                     <tbody>
     <tr>
@@ -22,6 +22,10 @@
     <tr>
         <th>E-posta:</th>
         <td><?php echo htmlspecialchars($_POST['email']); ?></td>
+    </tr>
+    <tr>
+        <th>Telefon:</th>
+        <td><?php echo htmlspecialchars($_POST['telefon']); ?></td>
     </tr>
     <tr>
         <th>Cinsiyet:</th>

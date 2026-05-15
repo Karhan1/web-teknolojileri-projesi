@@ -1,0 +1,69 @@
+/* 1. Genel Sayfa Ayarları */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6; /* Sayfa arka planı */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Navbar ve Footer */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-bottom: 3px solid #4dcddb;
+}
+
+.footer {
+    background-color: #7a50f7; /* Koyu profesyonel alt kısım */
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* 3. Mirasımız Sayfası Özel Stilleri */
+.ana-baslik-ozel {
+    color: #c0392b !important; /* Erdemir Başlığı Kırmızısı */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.miras-aldığım-yer { 
+    border-left: 6px solid #ab3ae0; /* Sol kalın mavi çizgi */
+    background: #ffffff; 
+    padding: 20px; 
+    margin-bottom: 25px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.sanayi-kutusu-ozel {
+    background-color: #c628f6 !important; /* Alt kutu arka planı (Koyu Lacivert) */
+    color: #ecf0f1 !important;           /* Yazı rengi */
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.sanayi-kutusu-ozel:hover {
+    transform: scale(1.02); /* Üzerine gelince hafif büyüme */
+    background-color: #41dac5 !important;
+}
+
+/* 4. Ortak Elemanlar */
+.text-justify { text-align: justify; }
+
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.profil-resmi {
+    width: 200px;
+    border: 5px solid #fff;
+}
+
+/* 5. Responsive */
+@media (max-width: 768px) {
+    .carousel-item img { height: 300px; }
+    .ana-baslik-ozel { font-size: 1.5rem; }
+}

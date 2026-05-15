@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <title>Giriş Yap | Kdz. Ereğli</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="bg-light">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">B251210081</a>
-            <div class="navbar-nav ms-auto">
-                <a class="nav-link" href="index.php">Hakkında</a>
-                <a class="nav-link active" href="login.php">Login</a>
-            </div>
-        </div>
-    </nav>
+<?php include 'includes/header.php'; ?>
 
     <div class="container mt-5">
         <div class="row justify-content-center">
@@ -25,7 +8,7 @@
                         <h4>Sisteme Giriş</h4>
                     </div>
                     <div class="card-body">
-                        <form action="login_kontrol.php" method="POST">
+                        <form action="login_kontrol.php" method="POST" onsubmit="return loginKontrol()">
                             <div class="mb-3">
                                 <label class="form-label">Kullanıcı Adı (E-posta):</label>
                                 <input type="text" name="username" class="form-control" placeholder="öğrencinumaran@sakarya.edu.tr" required>
@@ -41,5 +24,28 @@
             </div>
         </div>
     </div>
+    <script>
+function loginKontrol() {
+    // Formdaki değerleri alıyoruz
+    var email = document.getElementsByName("username")[0].value;
+    var sifre = document.getElementsByName("password")[0].value;
+
+    // 1. Boş alan kontrolü
+    if (email.trim() === "" || sifre.trim() === "") {
+        alert("Kullanıcı adı ve şifre alanları boş bırakılamaz!");
+        return false; // Formun gönderilmesini engeller
+    }
+
+    // 2. Mail formatı kontrolü (@sakarya.edu.tr ile mi bitiyor?)
+    // endsWith metodu ile istenen formatı denetliyoruz
+    if (!email.toLowerCase().endsWith("@sakarya.edu.tr")) {
+        alert("Lütfen geçerli bir Sakarya Üniversitesi mail adresi giriniz!\nÖrn: b2412100001@sakarya.edu.tr");
+        return false;
+    }
+
+    // Her şey doğruysa form gönderilir
+    return true;
+}
+</script>
 </body>
 </html>

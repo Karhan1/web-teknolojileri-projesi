@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Şehrim | Karadeniz Ereğli</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#">B251210081</a>
-            <div class="navbar-nav ms-auto">
-                <a class="nav-link" href="index.php">Hakkında</a>
-                <a class="nav-link" href="ozgecmis.php">Özgeçmiş</a>
-                <a class="nav-link active" href="sehrim.php">Şehrim</a>
-                <a class="nav-link" href="hobilerim.php">İlgi Alanlarım</a>
-                <a class="nav-link" href="iletisim.php">İletişim</a>
-                <a class="nav-link" href="login.php">Login</a>
-            </div>
-        </div>
-    </nav>
+<?php include 'includes/header.php'; ?>
 
     <div class="container mt-5">
         <header class="text-center mb-5">
@@ -29,20 +7,23 @@
         </header>
 
         <div id="sehirSlider" class="carousel slide shadow rounded overflow-hidden mb-5" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="img/sehir1.jpg" class="d-block w-100" alt="Slider 1" style="height: 400px; object-fit: cover;">
-        </div>
-        <div class="carousel-item">
-            <img src="img/sehir2.jpg" class="d-block w-100" alt="Slider 2" style="height: 400px; object-fit: cover;">
-        </div>
-        <div class="carousel-item">
-            <img src="img/sehir3.jpg" class="d-block w-100" alt="Slider 3" style="height: 400px; object-fit: cover;">
-        </div>
-        <div class="carousel-item">
-            <img src="img/sehir4.jpg" class="d-block w-100" alt="Slider 4" style="height: 400px; object-fit: cover;">
-        </div>
+   <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="img/sehir1.jpg" class="d-block w-100" alt="Slider 1">
     </div>
+
+    <div class="carousel-item">
+        <img src="img/sehir2.jpg" class="d-block w-100" alt="Slider 2">
+    </div>
+
+    <div class="carousel-item">
+        <img src="img/sehir3.jpg" class="d-block w-100" alt="Slider 3">
+    </div>
+
+    <div class="carousel-item">
+        <img src="img/sehir4.jpg" class="d-block w-100" alt="Slider 4">
+    </div>
+</div>
 
     <button class="carousel-control-prev" type="button" data-bs-target="#sehirSlider" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>

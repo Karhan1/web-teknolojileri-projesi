@@ -5,7 +5,7 @@ $pass = $_POST['password'];
 
 // Ödev kurallarına göre kullanıcı adı ve şifre kontrolü
 
-if ($user == "B251210081@sakarya.edu.tr" && $pass == "B251210081") {
+if ($user == "b251210081@sakarya.edu.tr" && $pass == "b251210081") {
     // Başarılıysa kullanıcıya hoşgeldin diyoruz
     echo "<!DOCTYPE html>
     <html>
@@ -15,16 +15,16 @@ if ($user == "B251210081@sakarya.edu.tr" && $pass == "B251210081") {
     </head>
     <body class='container mt-5 text-center'>
         <div class='alert alert-success'>
-            <h2>Hoşgeldin $pass</h2>
+            <h2>Hoşgeldiniz $user</h2>
             <p>Giriş işleminiz başarıyla gerçekleşti.</p>
             <a href='index.php' class='btn btn-primary'>Ana Sayfaya Dön</a>
         </div>
     </body>
     </html>";
 } else {
-    // Başarısızsa login sayfasına geri gönder (Javascript ile hata mesajı vererek)
+    // Başarısızsa login sayfasına geri gönder js ile
     echo "<script>
-            alert('Hatalı kullanıcı adı veya şifre!');
+            alert('Hatalı kullanıcı adı veya şifre');
             window.location.href='login.php';
           </script>";
 }
